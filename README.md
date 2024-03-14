@@ -1,9 +1,9 @@
-# \[Group name\]
+# \[Hackerne 2.0\]
 
 **Group members:**
 - Sarah
-- B
-- C
+- Maja
+- Marcus
 
 This repository contains  
 1. Inaugural project. 
