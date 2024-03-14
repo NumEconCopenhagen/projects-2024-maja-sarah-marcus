@@ -5,7 +5,6 @@
 - Maja
 - Marcus
 
-hej
 
 This repository contains  
 1. Inaugural project. 
