@@ -2,7 +2,7 @@
 
 **Group members:**
 - A
-- B
+- Maja
 - C
 
 This repository contains  
