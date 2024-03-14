@@ -1,10 +1,10 @@
-# \[Group name\]
+# \[Hackerne 2.0\]
 
 **Group members:**
-- A
+- Sarah
 - Maja
-- C
-heeeelp
+- Marcus
+
 This repository contains  
 1. Inaugural project. 
 2. Data project. We fetch data from **source x** on **y** and show that ...
