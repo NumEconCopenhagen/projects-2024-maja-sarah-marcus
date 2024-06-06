@@ -1,4 +1,4 @@
-**Introduction to the inaugural project: Analysis of an exchange economy** \
+**Introduction to the inaugural project: Analysis of an exchange economy** 
 This project is the first project prepared by Maja Andersen (sdg196), Marcus Jensen (csw615) and Sarah Bouzidi (wsf963) in the course Introduction to programming and numerical analysis at the University of Copenhagen, Spring 2024.
 
 In this project we investigate a exchange economy with consumers, A and B, and for goods, x1 and x2. We start by setting up the various parameter values that are fundamental to solving the task. Including the applicable utility functions and restrictions. \
