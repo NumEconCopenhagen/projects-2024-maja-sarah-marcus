@@ -1,6 +1,6 @@
 Introduction to the Inaugural Project: Analyzing an Exchange Economy
 
-In this project, we delve into the intricacies of an exchange economy featuring two consumers, A and B, and two goods, x1 and x2. Our journey begins by establishing the foundational elements of this economy, including the initial endowments and utility functions for each consumer, setting the stage for a comprehensive analysis of market dynamics and individual strategies.
+In this project, we delve into the complexities of an exchange economy featuring two consumers, A and B, and two goods, x1 and x2. The assignment begins by establishing the foundational elements of this economy, including the initial endowments and utility functions for each consumer, setting the stage for a comprehensive analysis of market dynamics and individual strategies.
 
 The primary objective of this project is to apply theoretical economic concepts through practical numerical solutions and simulations. By solving and simulating a pre-specified economic model, we aim to understand the behavior of consumers within the economy under varying price and endowment scenarios. This analysis will be supported by visualizations that illustrate the equilibrium states and potential Pareto improvements.
 
