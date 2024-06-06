@@ -1,11 +1,8 @@
-Introduction to the Inaugural Project: Analyzing an Exchange Economy
+Introduction to the initial project: Analysis of an exchange economy
+This project is the first project prepared by Maja Andersen (sdg196), Marcus Jensen (csw615) and Sarah Bouzidi (wsf963) in the course Introduction to programming and numerical analysis at the University of Copenhagen, Spring 2024.
 
-In this project, we delve into the complexities of an exchange economy featuring two consumers, A and B, and two goods, x1 and x2. The assignment begins by establishing the foundational elements of this economy, including the initial endowments and utility functions for each consumer, setting the stage for a comprehensive analysis of market dynamics and individual strategies.
+In this project we investigate a exchange economy with consumers, A and B, and for goods, x1 and x2. We start by setting up the various parameter values that are fundamental to solving the task. Including the applicable utility functions and restrictions.
 
-The primary objective of this project is to apply theoretical economic concepts through practical numerical solutions and simulations. By solving and simulating a pre-specified economic model, we aim to understand the behavior of consumers within the economy under varying price and endowment scenarios. This analysis will be supported by visualizations that illustrate the equilibrium states and potential Pareto improvements.
+The purpose of the project is to create a simulation of different scenarios where two agents in an exchange economy based on different endowments. The project gives an insight into which allocations are Pareto improvements or socially optimal.
 
-The analytical process will be structured around a series of tasks, each designed to explore different aspects of the economic model. These include determining the market-clearing prices, exploring various allocation scenarios under different pricing strategies, and investigating the outcomes when consumers optimize their utility subject to various constraints.
-
-This project will not only enhance our understanding of economic theories but also improve our skills in structuring a code project, documenting code effectively, and presenting complex results comprehensibly. The insights gained here will form a critical part of our exam portfolio, with opportunities for iterative improvement through peer feedback.
-
-Embarking on this inaugural project promises a deep dive into economic analysis, enriched with practical application and critical evaluation, preparing us for more complex challenges in the field of economics.
+Through the project, we investigate various aspects of the economic model, which include determinations of market clearing prices, exploration of different allocation scenarios under different pricing strategies, and studies of outcomes when consumers optimize their utility under different constraints.
