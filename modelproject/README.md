@@ -1,6 +1,6 @@
-Introduction to Model Project
+**Introduction to Model Project** 
 
-Model Analysis project
+**Model Analysis project**
 This project is the third project prepared by Maja Andersen (sdg196), Marcus Jensen (csw615) and Sarah Bouzidi (wsf963) in the course Introduction to programming and numerical analysis at the University of Copenhagen, Spring 2024.
 
 This project explores the Solow Model, a fundamental economic model that examines long-term economic growth. By analyzing key factors such as capital accumulation, labor or population growth, and technological progress, the Solow Model helps us understand how these elements interact to influence the overall growth of an economy. 
