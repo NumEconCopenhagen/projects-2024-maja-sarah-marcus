@@ -1,14 +1,12 @@
-# Data analysis project
+Introduction to Data Project
 
-Our project is titled **PROJECT TITLE** and is about EXPLAIN.
+Data Analysis project
+This project is the second project prepared by Maja Andersen (sdg196), Marcus Jensen (csw615) and Sarah Bouzidi (wsf963) in the course Introduction to programming and numerical analysis at the University of Copenhagen, Spring 2024.
 
-The **results** of the project can be seen from running [dataproject.ipynb](dataproject.ipynb).
+This project investigates the relationship between GDP (Gross Domestic Product) and unemployment rates. By analyzing data on these economic indicators, we aim to uncover trends and correlations that can provide insights into how changes in GDP impact unemployment. Data is extracted from Statistics Denmark with the data references NAN1 for GDP and AUL01 for employment. 
 
-We apply the **following datasets**:
+Understanding this relationship is crucial for policymakers and economists in crafting effective economic strategies and policies. 
+The project consists of a Jyputer-notebook file (XXXdataproject.ipynb) and two python-files: XXXX.py and XXXXpy.
 
-1. dataX.csv (*source*) 
-1. dataY.csv (*source*)
-
-**Dependencies:** Apart from a standard Anaconda Python 3 installation, the project requires the following installations:
-
-``pip install matplotlib-venn``
+Dependencies: Apart from a standard Anaconda Python 3 installation, the project requires the following installations:
+pip install matplotlib-venn
