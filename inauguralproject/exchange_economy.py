@@ -1,50 +1,35 @@
-
-from types import SimpleNamespace
 import numpy as np
 
 class ExchangeEconomyClass:
-
     def __init__(self):
+        self.alpha = 1/3
+        self.beta = 2/3
+        self.omega_A1 = 0.8
+        self.omega_A2 = 0.3
+        self.omega_1bar = 1.0
+        self.omega_2bar = 1.0
+        self.p2 = 1  # Numeraire
 
-        par = self.par = SimpleNamespace()
+    def uA(self, x1, x2):
+        return (x1**self.alpha) * (x2**(1-self.alpha))
 
-        # a. preferences
-        par.alpha = 1/3
-        par.beta = 2/3
-
-        # b. endowments
-        par.w1A = 0.8
-        par.w2A = 0.3
-
-    def utility_A(self, x1A, x2A):
-        return x1A**self.par.alpha * x2A**(1 - self.par.alpha)
-
-    def utility_B(self, x1B, x2B):
-        return x1B**self.par.beta * x2B**(1 - self.par.beta)
+    def uB(self, x1, x2):
+        return (x1**self.beta) * (x2**(1-self.beta))
 
     def demand_A(self, p1):
-        p2 = 1  # Numeraire
-    
-        x1A = self.par.alpha / p1 * (self.par.w1A + p1/p2 * self.par.w2A)
-        x2A = (1 - self.par.alpha) / p2 * (self.par.w1A + p1/p2 * self.par.w2A)
-        return x1A, x2A
+        xA1 = self.alpha * ((p1 * self.omega_A1 + self.p2 * self.omega_A2) / p1)
+        xA2 = (1 - self.alpha) * ((p1 * self.omega_A1 + self.p2 * self.omega_A2) / self.p2)
+        return xA1, xA2
 
     def demand_B(self, p1):
-        p2 = 1  # Numeraire
-        w1B = 1 - self.par.w1A  # Endowment of B for good 1
-        w2B = 1 - self.par.w2A  # Endowment of B for good 2
-        x1B = self.par.beta / p1 * (w1B + p1/p2 * w2B)
-        x2B = (1 - self.par.beta) / p2 * (w1B + p1/p2 * w2B)
-        return x1B, x2B
+        omega_B1 = 1 - self.omega_A1
+        omega_B2 = 1 - self.omega_A2
+        xB1 = self.beta * ((p1 * omega_B1 + self.p2 * omega_B2) / p1)
+        xB2 = (1 - self.beta) * ((p1 * omega_B1 + self.p2 * omega_B2) / self.p2)
+        return xB1, xB2
 
-    def check_market_clearing(self, p1):
+    def utility_A(self, xA1, xA2):
+        return self.uA(xA1, xA2)
 
-        par = self.par
-
-        x1A, x2A = self.demand_A(p1)
-        x1B, x2B = self.demand_B(p1)
-
-        eps1 = x1A - par.w1A + x1B - (1 - par.w1A)
-        eps2 = x2A - par.w2A + x2B - (1 - par.w2A)
-
-        return eps1, eps2
+    def utility_B(self, xB1, xB2):
+        return self.uB(xB1, xB2)
