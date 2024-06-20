@@ -1,8 +1,5 @@
-**Solow model with technological growth and human capital - Long run equlibrium**
-
 import numpy as np
 import matplotlib.pyplot as plt
-
 
 def plot_solow_model():
     # Parameters for Technological Growth
