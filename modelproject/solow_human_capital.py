@@ -1,3 +1,5 @@
+**Solow model with technological growth and human capital - Long run equlibrium**
+
 import numpy as np
 import matplotlib.pyplot as plt
 
