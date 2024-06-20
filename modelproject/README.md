@@ -7,7 +7,7 @@ This project explores the Solow Model, a fundamental economic model that examine
 
 This analysis provides valuable insights into the mechanisms driving economic development and the role of different variables in sustaining long-term growth.
 
-HER SKAL VI KOMME IND PÅ DEN NYE MODEL VI KOMMER TIL AT BRUGE OG DEN EXTENSION VI GØR BRUG AF - RET NÅR VI ER FÆRDIGE.
+We have chosen to use the Solow model with technological growth as our standard model and then work with an extension in the form of adding human capital.
 
 The results of the project can be seen from running modelproject.ipynb.
 Dependencies: Apart from a standard Anaconda Python 3 installation, the project requires no further packages.
