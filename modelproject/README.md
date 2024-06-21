@@ -9,5 +9,7 @@ This analysis provides valuable insights into the mechanisms driving economic de
 
 We have chosen to use the Solow model with technological growth as our standard model and then work with an extension in the form of adding human capital.
 
+To observe the impact of g on output, technology, and capital, the figures shown under the numerical solution section can only be viewed when running the code in VS Code. This limitation arises because GitHub is unable to display figures generated using plotly.graph_objs.
+
 The results of the project can be seen from running modelproject.ipynb.
 Dependencies: Apart from a standard Anaconda Python 3 installation, the project requires no further packages.
