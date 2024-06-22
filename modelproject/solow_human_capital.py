@@ -81,6 +81,3 @@ def plot_solow_model():
     plt.show()
 
 
-# Uncomment the lines below to execute when running the script directly
-# if __name__ == "__main__":
-#     plot_solow_model()
